@@ -55,7 +55,7 @@ h2 { font-size: 2.2rem; }
 	color: #16642a;
 	display: block;
 	font-size: 2.6rem;
-	font-weight: 400;
+	font-weight: bold;
 }
 
 .tm-main-nav { font-size: 1.2rem; }
@@ -82,12 +82,13 @@ h2 { font-size: 2.2rem; }
 }
 
 .tm-home-img-container {
-	background-image: url('../img/tm-home-img.jpg');
+	background-image: url('../img/Apeacefuleveningaway.jpeg');
 	background-size: auto;
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 500px;
 }
+
 
 .tm-about-img-container { background-image: url('../img/tm-about-img.jpg');	}
 .tm-blog-img-container { background-image: url('../img/tm-blog-img.jpg'); }
@@ -151,7 +152,7 @@ h4 {
 .tm-margin-b-30 { margin-bottom: 30px; }
 .tm-margin-b-40 { margin-bottom: 40px; }
 .tm-margin-t-big { margin-top: 90px; }
-.tm-margin-t-mid { margin-top: 60px; }
+.tm-margin-t-mid { margin-top: 20px; }
 .tm-margin-t-small { margin-top: 30px; }
 
 .tm-text-link { 
@@ -178,8 +179,8 @@ h4 {
 	background-color: #191919;
 	background-image: url('../img/classic-pattern-bg.png');
 	font-size: 1rem;
-	padding-top: 40px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .tm-footer-links-container { padding-left: 10px; }
@@ -222,6 +223,10 @@ p { line-height: 1.9; }
 	padding: 0.75rem 1rem;
 }
 
+.tm-img-fluid {
+	width: 300px;
+	height: 200px;
+  }
 .form-control:focus { border-color: #CC9900; }
 
 .tm-form-description { margin-top: 30px; }
