@@ -90,17 +90,17 @@ h2 { font-size: 2.2rem; }
 }
 
 
-.tm-about-img-container { background-image: url('../img/tm-about-img.jpg');	}
-.tm-blog-img-container { background-image: url('../img/tm-blog-img.jpg'); }
-.tm-contact-img-container { background-image: url('../img/tm-contact-img.jpg'); }
+.tm-about-img-container { background-image: url('../img/Apeacefuleveningaway.jpeg');	}
+.tm-blog-img-container { background-image: url('../img/Apeacefuleveningaway.jpeg'); }
+.tm-contact-img-container { background-image: url('../img/tApeacefuleveningaway.jpeg'); }
 
 .tm-about-img-container,
 .tm-blog-img-container,
 .tm-contact-img-container {
-	background-size: auto 200px;
+	background-size: auto ;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 200px;
+	height: 500px;
 }
 
 .tm-title {
