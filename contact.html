@@ -1,3 +1,23 @@
+<?php 
+if(isset($_POST['submit'])){
+    $to = "email@example.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $subject = "Form submission";
+    $subject2 = "Copy of your form submission";
+    $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
+    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
+
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,6 +41,8 @@ http://www.templatemo.com/tm-488-classic
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
           <![endif]-->
+
+          
 </head>
 
     <body>
@@ -76,8 +98,8 @@ http://www.templatemo.com/tm-488-classic
                             <h3 class="tm-gold-text tm-form-title">Send us an e-mail for any questions that you may have</h3>
                             <p class="tm-form-description">Please provide your name, e-mail address message and we'll get back to you as soon as we can. </p> 
 
-                      
-                            <form action="contact.php" method="POST">                                
+                        
+                            <form action=" " method="POST">                                
                                 <div class="form-group">
                                     <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
                                 </div>
@@ -90,10 +112,11 @@ http://www.templatemo.com/tm-488-classic
                                 <div class="form-group">
                                     <textarea id="contact_message" name="contact_message" class="form-control" rows="6" placeholder="Message" required></textarea>
                                 </div>
-                            
-                                <button type="submit" class="tm-btn">Submit</button>                          
+
+                                <input type="submit" class="tm-btn" name="submit" value="Submit">
+                                          
                             </form>   
-                    
+                 
                         </section>
                         
                                             
