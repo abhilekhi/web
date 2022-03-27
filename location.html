@@ -68,11 +68,8 @@ http://www.templatemo.com/tm-488-classic
         <div class="tm-blog-img-container">
             
         </div>
-        
-        <a class="weatherwidget-io" href="https://forecast7.com/en/49d18n119d55/oliver/" data-label_1="OLIVER" data-label_2="WEATHER" data-theme="clear" >OLIVER WEATHER</a>
-        <script>
-        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-        </script>
+
+     
 
         <section class="tm-section">
             <div class="container-fluid">
@@ -94,8 +91,8 @@ http://www.templatemo.com/tm-488-classic
                             <div class="tm-content-box">
                      
                                 <img src="img/Shower.jpg" alt="Image" class="tm-margin-b-20 tm-img-fluid">
-                                <h4 class="tm-margin-b-20 tm-gold-text">Washroom Facilites</h4>
-                                <p class="tm-margin-b-20">Busy day adventuring? No problem! All guests have access to coin laundry, showers and washrooms conveniently located steps away from their RV.</p>
+                                <h4 class="tm-margin-b-20 tm-gold-text">Washroom Facilities</h4>
+                                <p class="tm-margin-b-15">Busy day adventuring? No problem! All guests have access to coin laundry, showers and washrooms conveniently located steps away from their RV.</p>
                                
                             </div>  
     
@@ -105,8 +102,8 @@ http://www.templatemo.com/tm-488-classic
     
                             <div class="tm-content-box">
                                 <img src="img/Lights.jpg" alt="Image" class="tm-margin-b-20 tm-img-fluid">
-                                <h4 class="tm-margin-b-20 tm-gold-text">Electricty</h4>
-                                <p class="tm-margin-b-20">All RV spots come equipped with electrical connections making it easy for guests to connect their RV's to the grid.</p>
+                                <h4 class="tm-margin-b-20 tm-gold-text">Electricity</h4>
+                                <p class="tm-margin-b-15">All RV spots come equipped with electrical connections making it easy for guests to connect their RV's to the grid.</p>
                                
                             </div>  
     
@@ -117,7 +114,7 @@ http://www.templatemo.com/tm-488-classic
                             <div class="tm-content-box">
                                 <img src="img/internet.jpg" alt="Image" class="tm-margin-b-20 tm-img-fluid">
                                 <h4 class="tm-margin-b-20 tm-gold-text">Internet</h4>
-                                <p class="tm-margin-b-20">Wanting to stay connected to the internet? There is high-speed internet available to all guests.</p>
+                                <p class="tm-margin-b-15">Wanting to stay connected to the internet? There is high-speed internet available to all guests.</p>
                                
                             </div>  
     
@@ -129,7 +126,7 @@ http://www.templatemo.com/tm-488-classic
                             <div class="tm-content-box">
                                 <img src="img/tm-img-310x180-3.jpg" alt="Image" class="tm-margin-b-20 tm-img-fluid">
                                 <h4 class="tm-margin-b-20 tm-gold-text">Club House</h4>
-                                <p class="tm-margin-b-20">A club-house is available to all of our guests who wish to host small gatherings, meetings or interact with other guests. </p>
+                                <p class="tm-margin-b-15">A club-house is available to all of our guests who wish to host small gatherings, meetings or interact with other guests. </p>
                                   
                             </div>  
     
@@ -137,15 +134,71 @@ http://www.templatemo.com/tm-488-classic
                     
                         
                     </div>
-
+                    
+                   
 
                 </div>
-                
+        
             </div>
             
         </section>
 
-        
+        <section class="tm-section">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-xs-center">
+                    
+                    <div class="tm-blog-post">
+                     
+                        <h3 class="tm-gold-text">Local Weather Forcast</h3>
+
+                    <div style="padding-bottom: 30px;">
+                    </div>
+                    </div>
+   
+                    <script>
+                        (function(d, s, id) {
+                            if (d.getElementById(id)) {
+                                if (window.__TOMORROW__) {
+                                    window.__TOMORROW__.renderWidget();
+                                }
+                                return;
+                            }
+                            const fjs = d.getElementsByTagName(s)[0];
+                            const js = d.createElement(s);
+                            js.id = id;
+                            js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+                
+                            fjs.parentNode.insertBefore(js, fjs);
+                        })(document, 'script', 'tomorrow-sdk');
+                        </script>
+                
+                        <div class="tomorrow"
+                           data-location-id="016776"
+                           data-language="EN"
+                           data-unit-system="METRIC"
+                           data-skin="light"
+                           data-widget-type="upcoming"
+                           style="padding-bottom:22px;position:relative;"
+                        >
+                          <a
+                            href="https://www.tomorrow.io/weather/"
+                            rel="nofollow noopener noreferrer"
+                            target="_blank"
+                            style="position: absolute; bottom: 0; transform: translateX(-50%); left: 50%;"
+                          >
+                            <img
+                              alt="Powered by Tomorrow.io"
+                              src="https://weather-website-client.tomorrow.io/img/powered-by-tomorrow.svg"
+                              width="140"
+                              height="15"
+                            />
+                          </a>
+                        </div>
+
+        </section>
+
         <footer class="tm-footer">
             <div class="container-fluid">
                 <div class="row">
