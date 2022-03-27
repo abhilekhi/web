@@ -392,9 +392,10 @@ p { line-height: 1.9; }
 		margin: 0 auto;
 	}
 
-	.tm-blog-post {	padding-bottom: 10px; }
+	.tm-blog-post {	padding-bottom: 10px;}
+
 	.tm-content-box-contact {
-		margin-top: 40px;
+		margin-top: 400px;
 		margin-bottom: 0;
 	}
 
