@@ -176,8 +176,8 @@ h4 {
 
 .tm-footer {
 	color: #c6c6c6;
-	background-color: #191919;
-	background-image: url('../img/classic-pattern-bg.png');
+	background-color: #07200d;
+	
 	font-size: 1rem;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -199,7 +199,7 @@ h4 {
 .tm-footer-thumbnail { margin-bottom: 5px; }
 
 .tm-copyright-text { 
-	color: #999999; 
+	color: #cccccc; 
 	margin-bottom: 0;
 }
 
