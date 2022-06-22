@@ -245,7 +245,10 @@ p { line-height: 1.9; }
 
 @media (max-width: 991px){
 
-	.tm-home-img-container {
+	.tm-home-img-container,
+	.tm-about-img-container,
+	.tm-blog-img-container,
+	.tm-contact-img-container  {
 		background:none;
 		height: auto;
 	}
