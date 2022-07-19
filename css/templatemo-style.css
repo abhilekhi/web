@@ -80,18 +80,18 @@ h2 { font-size: 2.2rem; }
 	padding-top: 80px;
 	padding-bottom: 100px;
 }
-
+/*
 .tm-home-img-container,
 .tm-about-img-container,
 .tm-blog-img-container,
 .tm-contact-img-container {
-	background-image: url('../img/Apeacefuleveningaway.jpeg');
+	background-image: url('../img/test.jpeg');
 	background-size: auto;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 500px;
+	height: 250px;
 }
-
+*/
 
 .tm-title {
 	margin-bottom: 1rem;
